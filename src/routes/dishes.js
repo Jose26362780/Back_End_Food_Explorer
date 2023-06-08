@@ -1,12 +1,25 @@
-/*// Ruta para crear un nuevo plato
-app.post('/dishes', (request, response) => {
-  const { name, description, price, image, category, makings } = request.body;
-  const newDish = new Dish({ name, description, price, image, category, makings });
-  newDish.save((error) => {
-    if (error) {
-      return response.status(500).json({ error: 'Error al crear el plato' });
-    }
-    response.status(201).json({ message: 'Plato creado exitosamente' });
-  });
-});
-*/
+const { Router } = require("express");
+
+const multer = require("multer");
+const uploadConfig = require("../configs/upload");
+
+const upload = multer(uploadConfig.MULTER);
+const DishesController = require("../controllers/DishesController");
+const DishImgController = require("../controllers/DishImgController");
+
+const dishesRoutes = Router();
+
+const dishesController = new DishesController();
+const dishImgController = new DishImgController();
+
+dishesRoutes.get("/", dishesController.index);
+dishesRoutes.get("/:id",dishesController.show);
+dishesRoutes.post("/", dishesController.create);
+dishesRoutes.delete("/:id", dishesController.delete);
+dishesRoutes.patch("/image/:id", upload.single("image"), dishImgController.update);
+dishesRoutes.put("/:id", dishesController.att)
+
+
+
+
+module.exports = dishesRoutes;
