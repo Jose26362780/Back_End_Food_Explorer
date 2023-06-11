@@ -12,4 +12,4 @@ async function sqliteConnection(){
   return database;
 }
 
-module.export = sqliteConnection;
+module.exports = sqliteConnection;
