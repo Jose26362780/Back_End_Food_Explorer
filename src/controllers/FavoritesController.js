@@ -8,6 +8,7 @@ class FavoritesController {
     const favorite = await knex("favorites").insert({
       user_id,
       favoriteList
+     
     })
 
     return response.json()

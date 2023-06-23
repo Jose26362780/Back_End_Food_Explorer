@@ -3,6 +3,7 @@ require ("dotenv/config");
 
 const migrationsRun = require("./database/sqlite/migrations");
 
+const AppError = require("./utils/AppError");
 const uploadConfig = require("./configs/upload");
 
 const cors = require("cors");
@@ -14,7 +15,6 @@ const path = require('path')
 
 const app = express();
 app.use(cors());
-
 app.use(express.json());
 
 app.use("/dishes", express.static(uploadConfig.UPLOADS_FOLDER));

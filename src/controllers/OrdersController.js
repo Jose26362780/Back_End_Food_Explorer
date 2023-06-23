@@ -21,6 +21,8 @@ class OrdersController {
 
     return response.send("Pedido realizado.")
   }
+  
 }
 
 module.exports = OrdersController
+

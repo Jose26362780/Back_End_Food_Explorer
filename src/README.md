@@ -28,8 +28,7 @@ The following tools were used in building the project
 
 ### Author
 
-- [José Martinez](https://github.com/Jose26362780)si, lo hagoyes 
-
+- [José Martinez](https://github.com/Jose26362780)
 ### Contact
 
 - [Email] juniorjose1925@gmail.com  
