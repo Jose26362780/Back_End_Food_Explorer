@@ -8,15 +8,50 @@
 - [x] User registration
 - [x] product registration
 
-### How to use
 
-- To use this project you need to clone this repository and clone 
+## Instalação
 
+Instale com npm
 
- Then in both : 
 ```bash
-  npm run dev
+  npm install 
 ```
+    
+## Deploy
+
+Para fazer o deploy desse projeto rode
+
+```bash
+  npm run deploy
+```
+
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/Jose26362780/Back_End_Food_Explorer.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd my-project git@github.com:Jose26362780/Front_End_food_explorer.git
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run dev 
+```
+
 
 
   
@@ -30,8 +65,12 @@ The following tools were used in building the project
 ### Author
 
 - [José Martinez](https://github.com/Jose26362780)
-### Contact
 
-- [Email] juniorjose1925@gmail.com  
+## 🔗 Links de Contato 💻
 
-[![linkedin](https://media.licdn.com/dms/image/D4D03AQFICAdqQxPwjw/profile-displayphoto-shrink_800_800/0/1665016896529?e=1691020800&v=beta&t=lDqqbfss9ZrgwtcADRBdopQ4iwPrQNaxq1YmziGJ9mI)](https://www.linkedin.com/in/jose-martinez-352032222/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-martinez-352032222/)
+
+
+- [Email] juniorjose1925@gmail.com
+
+
