@@ -48,9 +48,17 @@ Instale as dependências
 
 Inicie o servidor
 
+
 ```bash
+para usar em desenvolvimento
   npm run dev 
+
+
+para inializar o pm2
+  npm run start
+  
 ```
+/*Server is running on Port 3333*/
 
 
 

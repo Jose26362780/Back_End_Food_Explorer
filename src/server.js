@@ -1,5 +1,5 @@
-require("express-async-errors");
 require ("dotenv/config");
+require("express-async-errors");
 
 const migrationsRun = require("./database/sqlite/migrations");
 
