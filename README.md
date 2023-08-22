@@ -69,6 +69,7 @@ The following tools were used in building the project
 - [Node-Express](https://expressjs.com/pt-br/)
 - [Multer](https://www.npmjs.com/package/multer)
 - [JWT](https://jwt.io/libraries)
+- [Render]()
 
 ### Author
 
